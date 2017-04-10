@@ -107,6 +107,8 @@
     
     if ([type isEqualToString:@"A3"]) {
         pageSize = BNPageSizeA3;
+    }else if([type isEqualToString:@"Letter"]){
+        pageSize = BNPageSizeLetter;
     }else{
         pageSize = BNPageSizeA4;
     }
