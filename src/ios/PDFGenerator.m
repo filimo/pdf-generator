@@ -109,6 +109,8 @@
         pageSize = BNPageSizeA3;
     }else if([type isEqualToString:@"Letter"]){
         pageSize = BNPageSizeLetter;
+    }else if([type isEqualToString:@"CustomLetter"]){
+        pageSize = BNPageSizeCustomLetter;
     }else{
         pageSize = BNPageSizeA4;
     }

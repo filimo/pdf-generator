@@ -12,6 +12,7 @@
 // http://en.wikipedia.org/wiki/Paper_size
 typedef enum {
 	BNPageSizeLetter,
+	BNPageSizeCustomLetter,
 	BNPageSizeGovernmentLetter,
 	BNPageSizeLegal,
 	BNPageSizeJuniorLegal,

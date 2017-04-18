@@ -246,6 +246,8 @@
 	switch (pageSize) {
 		case BNPageSizeLetter:
 			return BNSizeMakeWithPPI(8.5f, 11.0f);
+        case BNPageSizeCustomLetter:
+            return BNSizeMakeWithPPI(8.5f, 11.11f);
 		case BNPageSizeGovernmentLetter:
 			return BNSizeMakeWithPPI(8.0f, 10.5f);
 		case BNPageSizeLegal:
